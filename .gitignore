@@ -1,12 +1,12 @@
 # Data files - don't commit actual data to Git
-*.csv
+# *.csv [Exception for educational purposes and small data size]
 *.xlsx
 *.xls
 *.parquet
 *.json
 *.xml
-data/raw/*
-data/processed/*
+# data/raw/* [Exception for educational purposes and small data size]
+# data/processed/* [Exception for educational purposes and small data size]
 data/external/*
 !data/raw/README.md
 !data/processed/README.md
